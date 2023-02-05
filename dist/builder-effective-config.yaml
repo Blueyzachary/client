@@ -1,8 +1,8 @@
 directories:
   output: dist
   buildResources: build
-appId: com.cozypenguin.desktop
-productName: Cozy Penguin Desktop
+appId: com.picpps.client
+productName: PiCPPS Client
 asar: false
 win:
   publish: github

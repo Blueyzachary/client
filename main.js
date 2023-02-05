@@ -43,13 +43,13 @@ function createWindow () {
 
   mainWindow.setMenu(null);
   clearCache();
-  mainWindow.loadURL('https://play.cozypenguin.net/desktop');
+  mainWindow.loadURL('https://legacy.picpps.com/desktop');
 
   // RICH PRESENCE START
-  const clientId = '648318276463755310'; DiscordRPC.register(clientId); const rpc = new DiscordRPC.Client({ transport: 'ipc' }); const startTimestamp = new Date();
+  const clientId = '1071466606166814781'; DiscordRPC.register(clientId); const rpc = new DiscordRPC.Client({ transport: 'ipc' }); const startTimestamp = new Date();
   rpc.on('ready', () => {
     rpc.setActivity({
-      details: `cozypenguin.net`, 
+      details: `clubpenguin.picpps.com`, 
       state: `Desktop Client`, 
       startTimestamp, 
       largeImageKey: `main-logo`//, 
